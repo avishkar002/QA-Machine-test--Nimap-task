@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-24T12:41:32 IST" name="Default suite" finished-at="2025-11-24T12:42:21 IST" duration-ms="48623">
+    <groups>
+    </groups>
+    <test started-at="2025-11-24T12:41:32 IST" name="Default test" finished-at="2025-11-24T12:42:21 IST" duration-ms="48623">
+      <class name="automatelogin.Login">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:automatelogin.Login@3c9754d8]" started-at="2025-11-24T12:41:32 IST" name="precondition" finished-at="2025-11-24T12:42:12 IST" duration-ms="40089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method is-config="true" signature="login()[pri:0, instance:automatelogin.Login@3c9754d8]" started-at="2025-11-24T12:42:12 IST" name="login" finished-at="2025-11-24T12:42:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:automatelogin.Login@3c9754d8]" started-at="2025-11-24T12:42:12 IST" name="loginTest" data-provider="loginData" finished-at="2025-11-24T12:42:21 IST" duration-ms="8462" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[avishkar7272@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Niphad@12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:automatelogin.Login@3c9754d8]" started-at="2025-11-24T12:42:21 IST" name="logout" finished-at="2025-11-24T12:42:21 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="postconditon()[pri:0, instance:automatelogin.Login@3c9754d8]" started-at="2025-11-24T12:42:21 IST" name="postconditon" finished-at="2025-11-24T12:42:21 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postconditon -->
+      </class> <!-- automatelogin.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
